@@ -6,7 +6,7 @@ def ten_to_bin(x):
         return 0
     if x == 1:
         return 1
-    return str(ten_to_bin(x // 2)) + str(x % 2)
+    return (ten_to_bin(x // 2)) + str(x % 2)
 
 
 x = int(input())
